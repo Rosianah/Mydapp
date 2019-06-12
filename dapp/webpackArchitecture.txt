@@ -1,0 +1,30 @@
+Architecture
+
+contracts = solidity smart contracts
+migrations = paste smart contracts to yhe local blockchain
+src =  main frontend code
+    assets = images, fonts, svs etc
+    components = reusable react components
+    //container components containe full views
+    configs = configuration files such as dapp names
+    theme = configure sass, material ui
+    core = core libs being used
+        actions = dispatch actions
+        hoc = exports enhanced react components
+        libs = contains lib helpers to help js 
+        reducers = contaisn the reducers
+        store = main redux configuration store
+            type.js = reducer types
+        index.html = main app html files
+        index.js = the first js file to be executed when dapp gets rendered
+webpack = powers the frontend application
+    common.config.babel.js = production, developemnt code. .babel helps write in ES6 solidity
+
+package.json = defines 3rd party npm packages used in developemnt mode
+
+.babelrc = js transpiler...translates ES6 to formats all browsers can understand
+
+eslintrc = adhering t arnnb style guide
+            = turn off/disable some rules
+
+react router = hash router

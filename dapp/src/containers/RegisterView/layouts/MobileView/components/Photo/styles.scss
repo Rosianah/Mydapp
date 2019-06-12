@@ -1,0 +1,30 @@
+:local(.styles) {
+  .image-container {
+    position: relative;
+    float: left;
+    height: 100%;
+    width: 360px;
+    margin-right: 30px;
+    text-align: center;
+
+    .image-preview {
+      height: 360px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 10px;
+    }
+
+    img {
+      max-width: 100%;
+    }
+  }
+
+  @media (max-width: 400px) {
+    .image-container {
+      width: 100%;
+      margin: 0;
+      float: none;
+    }
+  }
+}

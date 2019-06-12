@@ -1,0 +1,19 @@
+//anthing that has been disabled 
+//color for disabled is in config theme styles
+:local(.styles) {
+  .root {
+    &.disabled {
+      svg {
+        circle {
+          fill: $disabled;
+        }
+      }
+    }
+
+    svg {
+      text {
+        fill: $white;
+      }
+    }
+  }
+}

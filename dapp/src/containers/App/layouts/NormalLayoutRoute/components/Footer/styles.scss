@@ -1,0 +1,19 @@
+:local(.styles) {
+  .add-btn {
+    margin-top: -60px;
+  }
+
+  .container {
+    padding-bottom: 0px;
+  }
+
+  .bottom-navigation {
+    box-shadow:0 0 10px rgba(0,0,0,0.4);
+  }
+
+  @media (min-width: 1100px) {
+    .bottom-navigation {
+      text-align: right;
+    }
+  }
+}
